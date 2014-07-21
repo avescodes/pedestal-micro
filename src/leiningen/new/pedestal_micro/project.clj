@@ -14,4 +14,5 @@
                  [org.slf4j/log4j-over-slf4j "1.7.7"]]
   :min-lein-version "2.0.0"
   :resource-paths ["config", "resources"]
-  :main ^{:skip-aot true} {{namespace}})
+  :main {{namespace}}
+  :aot [{{namespace}}])
