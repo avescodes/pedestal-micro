@@ -17,6 +17,8 @@
              ["README.md" (render "README.md" data)]
              ["project.clj" (render "project.clj" data)]
              [".gitignore" (render ".gitignore" data)]
+             ["Dockerfile" (render "Dockerfile" data)]
+             ["deploy/supervisord.conf" (render "supervisord.conf" data)]
              ["src/{{sanitized}}.clj" (render "service.clj" data)]
              ["test/{{sanitized}}_test.clj" (render "service_test.clj" data)]
              ["config/logback.xml" (render "logback.xml" data)])))
