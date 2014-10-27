@@ -13,8 +13,8 @@
 
 (def service {::http/routes routes
               ::http/resource-path "/public"
-              ::http/host (get (System/getenv) "HOST" "localhost")
               ::http/type :jetty
+              ::http/host (get (System/getenv) "HOST" "0.0.0.0")
               ::http/port (Integer/parseInt (get (System/getenv) "PORT" "8080"))})
 
 (defn -main [& args]
