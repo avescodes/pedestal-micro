@@ -1,4 +1,4 @@
-(defproject pedestal-micro/lein-template "0.2.0"
+(defproject pedestal-micro/lein-template "0.2.1-SNAPSHOT"
   :description "Template for creating Pedestal micro-services"
   :url "https://github.com/rkneufeld/pedestal-micro"
   :license {:name "The MIT License (MIT)"
