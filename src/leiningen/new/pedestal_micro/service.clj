@@ -22,11 +22,6 @@
                      (require ns-sym :reload))
                    routes)})
 
-(defn -main [& args]
-  (-> service
-      http/create-server
-      http/start))
-
 (defonce server nil)
 
 (defn start [& args]
