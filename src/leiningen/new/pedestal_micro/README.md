@@ -6,7 +6,7 @@ TODO: Description
 
 The generated project includes both a
 `build.boot` file (for [boot](http://boot-clj.com/), my preferred project manager) and,
-`project.cl` (for [Leiningen](http://leiningen.org/)).
+`project.clj` (for [Leiningen](http://leiningen.org/)).
 
 The two are roughly equivalent, but I suggest you pick one, and discard the
 other.
