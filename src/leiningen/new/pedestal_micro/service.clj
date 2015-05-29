@@ -32,8 +32,9 @@
     (http/start server)))
 
 (defn stop []
-  (http/stop server)
-  (alter-var-root #'server (constantly nil)))
+  (when server
+      (http/stop server)
+      (alter-var-root #'server (constantly nil))))
 
 (defn restart []
   (stop)
